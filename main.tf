@@ -6,4 +6,5 @@ provider "google" {
 resource "google_compute_network" "main_vpc" {
   name                    = "main-vpc1"
   auto_create_subnetworks = false
+#123
 }
